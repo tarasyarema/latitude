@@ -1,6 +1,7 @@
 import { dts } from 'rollup-plugin-dts'
 import typescript from '@rollup/plugin-typescript'
 import copy from 'rollup-plugin-copy'
+import { vanillaExtractPlugin } from '@vanilla-extract/rollup-plugin'
 
 const EXTERNAL_DEPENDENCIES = [
   '@latitude-data/custom_types',
@@ -30,6 +31,7 @@ export default [
           },
         ],
       }),
+      vanillaExtractPlugin(),
     ],
   },
   {
