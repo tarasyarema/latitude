@@ -15,7 +15,6 @@ const EXTERNAL_DEPENDENCIES = [
   'zustand/vanilla',
 ]
 
-/** @type {import('rollup').RollupOptions}*/
 export default [
   {
     input: 'src/index.ts',
@@ -41,3 +40,4 @@ export default [
     plugins: [dts()],
   },
 ]
+

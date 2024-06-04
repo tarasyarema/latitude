@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*",
-    "rollup.config.mjs",
+    "rollup.config.ts",
     "tailwind.config.js",
     "vitest.config.ts"
   ],
